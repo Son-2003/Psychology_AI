@@ -135,7 +135,7 @@ export default function MotivationForm() {
             <Heart className="w-8 h-8 text-white" fill="white" />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold bg-linear-to-r from-rose-600 to-purple-600 bg-clip-text text-transparent mb-2">
-            MindX
+            MindX Psychology
           </h1>
           <p className="text-gray-600 text-base sm:text-lg flex items-center justify-center gap-2 flex-wrap">
             <span className="inline-flex items-center gap-1.5">
