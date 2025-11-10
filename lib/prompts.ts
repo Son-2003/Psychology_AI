@@ -223,9 +223,9 @@ export function detectCrisis(text: string): boolean {
 
 export function detectIssue(text: string): string {
   const t = text.toLowerCase();
-  if (t.includes("căng thẳng") || t.includes("stress")) return "Stress";
-  if (t.includes("buồn") || t.includes("mất động lực")) return "Sadness";
-  if (t.includes("lo lắng") || t.includes("sợ")) return "Anxiety";
-  if (t.includes("mệt") || t.includes("kiệt sức")) return "Burnout";
-  return "General"; // fallback mặc định
+  if (t.includes("căng thẳng") || t.includes("stress")) return "stress";
+  if (t.includes("buồn") || t.includes("mất động lực")) return "sadness";
+  if (t.includes("lo lắng") || t.includes("sợ")) return "anxiety";
+  if (t.includes("mệt") || t.includes("kiệt sức")) return "burnout";
+  return "general"; // fallback mặc định
 }

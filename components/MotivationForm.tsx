@@ -62,6 +62,8 @@ export default function MotivationForm() {
   const [expandedAction, setExpandedAction] = useState<number | null>(null);
 
   const handleSubmit = async () => {
+    // console.log(answers);
+    
     if (!answers.feeling.trim()) return;
 
     setLoading(true);
