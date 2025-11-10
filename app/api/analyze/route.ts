@@ -40,7 +40,7 @@ export async function POST(req: NextRequest) {
     const issueKey = (
       issue && typeof issue === "string" && issue in AIPrompts
         ? issue
-        : "general"
+        : "General"
     ) as AIPromptKey;
 
     const fullPrompt = AIPrompts[issueKey]
